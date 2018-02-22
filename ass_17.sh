@@ -8,11 +8,11 @@ read -p "Enter the value for n : " num
 counter=1
 sum=1
 
-while [ $counter -lt $num ]
+while [ $num -gt $counter ]
 do
-counter=`expr $counter * 2 +1`
+counter=`expr $counter \* 2 + 1`
 sum=`expr $sum + $counter`
-counter=`expr $counter +1`
+counter=`expr $counter + 1`
 done
 
 echo "Upto $num terms the sum is = $sum"
