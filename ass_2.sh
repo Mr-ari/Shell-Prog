@@ -7,7 +7,7 @@ read -p "Enter the third number- " num3
 l=$num1
 if [ $num2 -gt $l ]
 then 
-l=$num1
+l=$num2
 fi
 if [ $num3 -gt $l ]
 then 
